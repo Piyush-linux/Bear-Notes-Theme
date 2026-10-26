@@ -1,0 +1,143 @@
+{
+  "base": {
+    "text color": "#E8E8E8",
+    "text secondary color": "#A8A9AA",
+    "text tertiary color": "#58595A",
+    "background color": "#1C1C1D",
+    "background secondary color": "#2B2C2D",
+    "background tertiary color": "#46474A",
+    "stroke color": "$sidebar.background color",
+    "accent color": "#DD4C4F",
+    "search primary color": "#FFFA5E",
+    "search secondary color": "$base.selection color",
+    "selection color": "#5A2E30"
+  },
+  "notes": {
+    "title color": "$editor.headers.text color",
+    "subtitle color": "$base.text secondary color",
+    "placeholder color": "$base.text secondary color",
+    "date color": "$base.text secondary color",
+    "pin color": "$base.accent color",
+    "separator color": "$sidebar.background color",
+    "search background color": "$base.search primary color",
+    "attachment background color": "$base.background secondary color",
+    "encrypted token color": "$base.background tertiary color",
+    "selection background color": "#323335",
+    "ribbon color": "$base.accent color",
+    "toolbar": {
+      "background color": "$base.background color",
+      "text color": "$base.text color",
+      "icon color": "$base.text secondary color",
+      "hover color": "$base.background secondary color"
+    }
+  },
+  "sidebar": {
+    "text color": "#C9CACB",
+    "text secondary color": "#FFFFFF",
+    "background color": "#252627",
+    "background secondary color": "#3A3B3D",
+    "stroke color": "$sidebar.background color",
+    "accent color": "#DD4C4F",
+    "icon color": "#DD4C4F",
+    "selected icon color": "#FFFFFF",
+    "toolbar": {
+      "background color": "$sidebar.background color",
+      "icon color": "$sidebar.icon color",
+      "hover color": "$sidebar.background secondary color"
+    }
+  },
+  "placeholder": {
+    "background color": "$base.background color",
+    "background stroke color": "$base.background tertiary color",
+    "shadow color": "#1E2022",
+    "stroke color": "$base.text tertiary color"
+  },
+  "editor": {
+    "background color": "$base.background color",
+    "text color": "$base.text color",
+    "text light color": "#8A5A5F",
+    "accent color": "$base.accent color",
+    "cursor color": "$base.accent color",
+    "link color": "$base.accent color",
+    "list marker color": "$base.accent color",
+    "marker color": "$base.text tertiary color",
+    "selection color": "$base.selection color",
+    "selection inactive color": "$base.background tertiary color",
+    "text font": "BearSansUI-Regular",
+    "text size": 15,
+    "line height multiplier": 1.5,
+    "headers": {
+      "text color": "#F4F4F4",
+      "font": "BearSansUIHeading-Regular",
+      "modular scale": 1.125,
+      "line height multiplier": 1.3,
+      "add top bottom padding": 1,
+      "padding top multiplier": 0.5,
+      "padding bottom multiplier": 0.3
+    },
+    "code": {
+      "text color": "$base.text color",
+      "border color": "$base.text tertiary color",
+      "background color": "$base.background secondary color",
+      "font": "RobotoMono-Regular",
+      "syntax highlight": {
+        "comment": "#7f8c97",
+        "constant": "#00A1D8",
+        "number": "#e6945e",
+        "string": "#e6945e",
+        "entity": "#70b8d7",
+        "keyword": "#70b8d7",
+        "function": "#aac97f",
+        "variable": "#17a8db"
+      }
+    },
+    "task": {
+      "background color": "$base.background color",
+      "border color": "$base.text secondary color",
+      "check color": "$base.accent color"
+    },
+    "tag": {
+      "background color": "#3A3B3D",
+      "text color": "$base.text color",
+      "marker color": "$base.text secondary color"
+    },
+    "highlighter": {
+      "default": {
+        "background color": "#7A2E31",
+        "text color": "#FFFFFF"
+      },
+      "red": {
+        "background color": "#683735",
+        "text color": "#FFFFFF"
+      },
+      "blue": {
+        "background color": "#215075",
+        "text color": "#FFFFFF"
+      },
+      "green": {
+        "background color": "#355F3A",
+        "text color": "#FFFFFF"
+      },
+      "yellow": {
+        "background color": "#66522E",
+        "text color": "#FFFFFF"
+      },
+      "purple": {
+        "background color": "#6D487F",
+        "text color": "#FFFFFF"
+      }
+    },
+    "separator": {
+      "border color": "#46474A"
+    },
+    "table": {
+      "border color": "#46474A",
+      "cell background color": "$base.background color",
+      "cell alternate background color": "$base.background secondary color"
+    },
+    "toolbar": {
+      "icon color": "$base.text secondary color",
+      "hover color": "$base.background secondary color"
+    }
+  }
+}
