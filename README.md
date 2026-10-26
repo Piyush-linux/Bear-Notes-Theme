@@ -2,6 +2,8 @@
 
 A dark theme for [Bear](https://bear.app) on macOS, built from Bear's **Dark Graphite** theme. Bear's red replaces the blue accents, and the text is brighter for improved contrast.
 
+![](/image.png)
+
 ## Colours
 
 | Element | Colour |
